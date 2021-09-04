@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
 // import header_option from './header_option';
 
 function App() {
@@ -18,9 +19,12 @@ function App() {
 
 
         {/* App Body */}
-              {/* Left sidebar */}
+        <div className="appbody">
+
+              <Sidebar />
               {/* Feed */}
               {/* Right Sidebar */}
+        </div>
     </div>
   );
 }
