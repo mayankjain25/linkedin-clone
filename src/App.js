@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import Header from './Header';
-import SearchIcon from '@material-ui/icons/Search';
+// import header_option from './header_option';
 
 function App() {
   return (
@@ -14,18 +14,7 @@ function App() {
 
         {/* The header (nav bar) of LinkedIn can be categorised into two subsections - the left part (habing Logo annd search bar), and the right part (having Home,Notifications, Network etc) */}
 
-        <div className="header-left">
-              <img src="./linkedin.png" alt="" srcset="" />
-
-              <div className="search">
-                <SearchIcon />
-                <input type="text" />
-              </div>
-        </div>
-
-        <div className="header-right">
-
-        </div>
+        
 
 
         {/* App Body */}
