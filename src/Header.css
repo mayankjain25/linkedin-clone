@@ -10,6 +10,7 @@
     justify-content: space-evenly;
     padding-top:10px;
     padding-bottom:10px;
+    background-color: white;
     border-bottom: 0.2px solid lightblue;
     width:100%;
     z-index:999;

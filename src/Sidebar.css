@@ -15,7 +15,7 @@
     top:150px;
     display: flex;
     flex-direction: column;
-    width:max-content;
+    /* width:max-content; */
     align-items: center;
     border:1px solid lightgray;
     border-bottom:0px;
